@@ -4,19 +4,19 @@ for CNN and other baseline methods (Logistic Regression, SVM, Fasttext and atten
 as an visualization approach that mentioned in the report.
 
 Software and Hardware Configurations：
-Windows 10
-Nvidia P40 GPU (24g Memory)
-Python 3.6.4
-tensorflow-gpu 1.11.0
-Keras 2.2.4
-numpy 1.14.5
+Windows 10  
+Nvidia P40 GPU (24g Memory)  
+Python 3.6.4  
+tensorflow-gpu 1.11.0  
+Keras 2.2.4  
+numpy 1.14.5  
 
 To implement the code of CNN and models in the control group, you need first to download data from the following links:
 
-   https://drive.google.com/open?id=18bXlswd6zexIW66Yzc_XSysFuKNJPINv
-   https://drive.google.com/open?id=1Cd9umhzIkTGk9W6DHyC6drhXBunbWWB9
-   https://drive.google.com/open?id=1Ej6B8250DOYu-YCzExI3-EWvz88JE936
-   https://drive.google.com/open?id=1pCD9xhtfCaoltTT8U_HA--Rwj-LeUW6D
+   https://drive.google.com/open?id=18bXlswd6zexIW66Yzc_XSysFuKNJPINv  
+   https://drive.google.com/open?id=1Cd9umhzIkTGk9W6DHyC6drhXBunbWWB9  
+   https://drive.google.com/open?id=1Ej6B8250DOYu-YCzExI3-EWvz88JE936  
+   https://drive.google.com/open?id=1pCD9xhtfCaoltTT8U_HA--Rwj-LeUW6D  
 
 Download these files (data.rar, vocabulary.rar, splitted_data.rar and models.rar) and extracted them to the artefacts directory.
 

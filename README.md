@@ -22,35 +22,35 @@ To implement the code of CNN and models in the control group, you need first to 
    https://drive.google.com/open?id=1Ej6B8250DOYu-YCzExI3-EWvz88JE936  
    https://drive.google.com/open?id=1pCD9xhtfCaoltTT8U_HA--Rwj-LeUW6D  
 
-Download these files (data.rar, vocabulary.rar, splitted_data.rar and models.rar) and extracted them to the artefacts directory.
+Download these files (*data.rar*, *vocabulary.rar*, *splitted_data.rar* and *models.rar*) and extracted them to the artefacts directory.
 
 The command to train and test CNN model:
 
     python main.py --pattern content --batchsize 64 --epoch 10
 
-where pattern is the edit type , including content, image, link, format, which respectively represents text format, 
+where pattern is the edit type, including content, image, link, format, which respectively represents text format, 
 image, link and code format.
 
 The command to create the html for visualizing the prediction result of a post example:
 
     python visualisation.py
 
-An html file with filename pattern + 'visualization.html' will be generated under the local directory.
+An html file with filename pattern + *visualization.html* will be generated under the local directory.
 
-To implement baseline methods, run the train.py file under control_group_model directory.  
+To implement baseline methods, run the *train.py* file under *control_group_model* directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.
 
-train.py will implement attention-based LSTM, SVM and Linear Regression one by one for a specific edit type.
+*train.py* will implement attention-based LSTM, SVM and Linear Regression one by one for a specific edit type.
 The fasttext has been commented out as it is not supported by windows and the method can only run on a removed
 Mac computer.
 
-Empirical_study directory contains the code of computing the n-gram frequency (unigram to trigram) and LDA modelling
-method. The PostHistory.xml file is a very large dataset with approximately 99G. It is hard to upload the data we used
+*Empirical_study* directory contains the code of computing the n-gram frequency (unigram to trigram) and LDA modelling
+method. The *PostHistory.xml* file is a very large dataset with approximately 99G. It is hard to upload the data we used
 onto geogle drive or dropbox due to the data limit. However, there is the link for downloading the updated post history:
 (Our dataset containing all post history before Aug. 2017 while the data provided here have been updated to Sept. 2018)
 
    https://archive.org/download/stackexchange/stackoverflow.com-PostHistory.7z
 
-You can uncompress the .7z file into Empirical_study directory and rename it as Post History.xml. Then run ngram_frequency.py 
+You can uncompress the .7z file into Empirical_study directory and rename it as Post History.xml. Then run *ngram_frequency.py* 
 to gain the top 100 frequency n-grams or run LDA_modeling to see the 8-topic modeling results summarized from post history 
 data.

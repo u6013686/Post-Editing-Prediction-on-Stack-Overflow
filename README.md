@@ -1,4 +1,7 @@
 # Post-Editing-Prediction-on-Stack-Overflow
+Related paper: 
+https://drive.google.com/file/d/1mv5TgAioB4DbdCWyDMrNaZi9_3WNaYFr/view?usp=sharing
+
 The project basically includes an empirical study, data preprocessing, training and testing process
 for CNN and other baseline methods (Logistic Regression, SVM, Fasttext and attention-based_LSTM), as well
 as an visualization approach that mentioned in the report.

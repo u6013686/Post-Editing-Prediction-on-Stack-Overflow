@@ -3,7 +3,7 @@ The project basically includes an empirical study, data preprocessing, training 
 for CNN and other baseline methods (Logistic Regression, SVM, Fasttext and attention-based_LSTM), as well
 as an visualization approach that mentioned in the report.
 
-Software and Hardware Configurations：
+Software and Hardware Configurations： 
 Windows 10  
 Nvidia P40 GPU (24g Memory)  
 Python 3.6.4  
@@ -33,7 +33,7 @@ The command to create the html for visualizing the prediction result of a post e
 
 An html file with filename pattern + 'visualization.html' will be generated under the local directory.
 
-To implement baseline methods, run the train.py file under control_group_model directory.
+To implement baseline methods, run the train.py file under control_group_model directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.
 
 train.py will implement attention-based LSTM, SVM and Linear Regression one by one for a specific edit type.

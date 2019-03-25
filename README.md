@@ -4,6 +4,7 @@ for CNN and other baseline methods (Logistic Regression, SVM, Fasttext and atten
 as an visualization approach that mentioned in the report.
 
 Software and Hardware Configurations： 
+
 Windows 10  
 Nvidia P40 GPU (24g Memory)  
 Python 3.6.4  

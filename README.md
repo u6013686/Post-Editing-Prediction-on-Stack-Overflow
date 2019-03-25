@@ -37,7 +37,7 @@ The command to create the html for visualizing the prediction result of a post e
 
 An html file with filename pattern + *visualization.html* will be generated under the local directory.
 
-To implement baseline methods, run the *train.py* file under *control_group_model* directory.  
+To implement baseline methods, run *train.py* file under *control_group_model* directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.
 
 *train.py* will implement attention-based LSTM, SVM and Linear Regression one by one for a specific edit type.

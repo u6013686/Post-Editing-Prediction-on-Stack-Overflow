@@ -1,0 +1,16 @@
+You can use `ismember` to find where each label exists in your cell array. The second output will provide the index of the label. You can then use `imagesc` with a custom colormap to display the result.
+
+	
+	% Create a copy of Grid where the empty cells are replaced with ''
+	tmp = Grid;
+	tmp = cellfun(@(x)['' x], Grid, 'UniformOutput', false);
+	
+	% Locate all of the 's' and 'i' cells and assign values of 1 and 2 respectively
+	[~, labels] = ismember(tmp, {'s', 'i'});
+		
+	% Display the resulting label matrix
+	imagesc(labels)
+	
+	% Use a custom colormap where empty cells are black, 's' are blue and 'i' are red
+	cmap = [0 0 0; 0 0 1; 1 0 0];
+	colormap(cmap)

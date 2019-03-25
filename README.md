@@ -46,7 +46,7 @@ method. The PostHistory.xml file is a very large dataset with approximately 99G.
 onto geogle drive or dropbox due to the data limit. However, there is the link for downloading the updated post history:
 (Our dataset containing all post history before Aug. 2017 while the data provided here have been updated to Sept. 2018)
 
-    https://archive.org/download/stackexchange/stackoverflow.com-PostHistory.7z
+   https://archive.org/download/stackexchange/stackoverflow.com-PostHistory.7z
 
 You can uncompress the .7z file into Empirical_study directory and rename it as Post History.xml. Then run ngram_frequency.py 
 to gain the top 100 frequency n-grams or run LDA_modeling to see the 8-topic modeling results summarized from post history 

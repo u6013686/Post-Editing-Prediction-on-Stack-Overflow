@@ -15,7 +15,7 @@ tensorflow-gpu 1.11.0
 Keras 2.2.4  
 numpy 1.14.5  
 
-To implement the code of CNN and models in the control group, you need first to download data from the following links:
+To implement the code of CNN and models in the control group, you need first download data from the following links:
 
    https://drive.google.com/open?id=18bXlswd6zexIW66Yzc_XSysFuKNJPINv  
    https://drive.google.com/open?id=1Cd9umhzIkTGk9W6DHyC6drhXBunbWWB9  
@@ -44,13 +44,9 @@ Note that this file can only run after CNN is build as the baseline methods have
 The fasttext has been commented out as it is not supported by windows and the method can only run on a removed
 Mac computer.
 
-*Empirical_study* directory contains the code of computing the n-gram frequency (unigram to trigram) and LDA modelling
-method. The *PostHistory.xml* file is a very large dataset with approximately 99G. It is hard to upload the data we used
-onto geogle drive or dropbox due to the data limit. However, there is the link for downloading the updated post history:
-(Our dataset containing all post history before Aug. 2017 while the data provided here have been updated to Sept. 2018)
+*Empirical_study* directory contains processes of computing the n-gram frequency (unigram to trigram) and LDA modelling
+method. Data source is available in:
 
    https://archive.org/download/stackexchange/stackoverflow.com-PostHistory.7z
 
-You can uncompress the .7z file into Empirical_study directory and rename it as Post History.xml. Then run *ngram_frequency.py* 
-to gain the top 100 frequency n-grams or run LDA_modeling to see the 8-topic modeling results summarized from post history 
-data.
+

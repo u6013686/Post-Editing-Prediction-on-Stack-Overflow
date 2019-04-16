@@ -1,12 +1,14 @@
 # Post-Editing-Prediction-on-Stack-Overflow
-Related paper: 
-https://drive.google.com/file/d/1mv5TgAioB4DbdCWyDMrNaZi9_3WNaYFr/view?usp=sharing
 
 The project basically includes an empirical study, data preprocessing, training and testing process
 for CNN and other baseline methods (Logistic Regression, SVM, Fasttext and attention-based_LSTM), as well
 as an visualization approach that mentioned in the report.
 
-Software and Hardware Configurations： 
+# Related paper
+
+https://chunyang-chen.github.io/publication/proactiveEdit_cscw18.pdf
+
+# Configuration 
 
 Windows 10  
 Nvidia P40 GPU (24g Memory)  
@@ -14,6 +16,8 @@ Python 3.6.4
 tensorflow-gpu 1.11.0  
 Keras 2.2.4  
 numpy 1.14.5  
+
+# Data
 
 To implement the code of CNN and models in the control group, you need first download data from the following links:
 
@@ -23,6 +27,8 @@ To implement the code of CNN and models in the control group, you need first dow
    https://drive.google.com/open?id=1pCD9xhtfCaoltTT8U_HA--Rwj-LeUW6D  
 
 Download these files (*data.rar*, *vocabulary.rar*, *splitted_data.rar* and *models.rar*) and extracted them to the artefacts directory.
+
+# Implementation
 
 The command to train and test CNN model:
 

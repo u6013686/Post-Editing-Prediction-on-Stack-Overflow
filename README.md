@@ -39,7 +39,7 @@ The command to create the html for visualizing the prediction result of a post e
 
     python visualisation.py
 
-An *html* file with filename *pattern + visualization.html* will be generated under the local directory, in which shows an example of attention visualization.
+An *html* file with filename *pattern + visualization.html* will be generated under the local directory, in which there is an example of attention visualization.
 
 To implement baseline methods, run *train.py* file under *control_group_model* directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.

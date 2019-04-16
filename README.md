@@ -26,8 +26,6 @@ To implement the code of CNN and models in the control group, you need first dow
    https://drive.google.com/open?id=1Ej6B8250DOYu-YCzExI3-EWvz88JE936  
    https://drive.google.com/open?id=1pCD9xhtfCaoltTT8U_HA--Rwj-LeUW6D  
 
-Download these files (*data.rar*, *vocabulary.rar*, *splitted_data.rar* and *models.rar*) and extracted them to the artefacts directory.
-
 ## Implementation
 
 The command to train and test CNN model:
@@ -41,7 +39,7 @@ The command to create the html for visualizing the prediction result of a post e
 
     python visualisation.py
 
-An *html* file with filename *pattern + visualization.html* will be generated under the local directory.
+An *html* file with filename *pattern + visualization.html* will be generated under the local directory, in which shows an example of attention visualization.
 
 To implement baseline methods, run *train.py* file under *control_group_model* directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.
@@ -50,9 +48,10 @@ Note that this file can only run after CNN is build as the baseline methods have
 The fasttext has been commented out as it is not supported by windows and the method can only run on a removed
 Mac computer.
 
-*Empirical_study* directory contains processes of computing the n-gram frequency (unigram to trigram) and LDA modelling
+*Empirical_study* directory contains processes of computing the n-gram frequency (unigram to trigram) and LDA topic modelling
 method. Data source is available in:
 
    https://archive.org/download/stackexchange/stackoverflow.com-PostHistory.7z
+   
 
 

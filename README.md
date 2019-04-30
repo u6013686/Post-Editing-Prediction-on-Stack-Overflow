@@ -36,6 +36,7 @@ where pattern is the edit type, including content, image, link, format, which re
 image, link and code format.
 
 Examples of typical edits are shown below:
+
 ![image](https://github.com/u6013686/Post-Editing-Prediction-on-Stack-Overflow/blob/master/edittype.png)
 
 The input of each binary classification model is posts before edited and the target output is whether the post should be edited or not.
@@ -45,6 +46,10 @@ The command to create the html for visualizing the prediction result of a post e
     python visualisation.py
 
 An *html* file with filename *pattern + visualization.html* will be generated under the local directory, in which there is an example of attention visualization.
+
+sample visulization result:
+
+![image](https://github.com/u6013686/Post-Editing-Prediction-on-Stack-Overflow/blob/master/visualization.png)
 
 To implement baseline methods, run *train.py* file under *control_group_model* directory.  
 Note that this file can only run after CNN is build as the baseline methods have to reuse the dataset that CNN generated.

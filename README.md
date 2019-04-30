@@ -35,6 +35,11 @@ The command to train and test CNN model:
 where pattern is the edit type, including content, image, link, format, which respectively represents text format, 
 image, link and code format.
 
+Examples of typical edits are shown below:
+![image](http://github.com/u6013686/Post-Editing-Prediction-on-Stack-Overflow/edittype.jpg)
+
+The input of each binary classification model is posts before edited and the target output is whether the post should be edited or not.
+
 The command to create the html for visualizing the prediction result of a post example:
 
     python visualisation.py

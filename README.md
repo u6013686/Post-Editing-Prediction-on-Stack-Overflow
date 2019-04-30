@@ -36,7 +36,7 @@ where pattern is the edit type, including content, image, link, format, which re
 image, link and code format.
 
 Examples of typical edits are shown below:
-![image](http://github.com/u6013686/Post-Editing-Prediction-on-Stack-Overflow/edittype.jpg)
+![image](https://github.com/u6013686/Post-Editing-Prediction-on-Stack-Overflow/blob/master/edittype.png)
 
 The input of each binary classification model is posts before edited and the target output is whether the post should be edited or not.
 
